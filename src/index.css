@@ -100,3 +100,137 @@ img {
     color: #fff;
     text-align: center;
 }
+
+
+.app-layaut {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+}
+
+.container-menus {
+    padding: 1rem;
+}
+
+
+.main-menu {
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.main-menu h2 {
+    margin-bottom: 2rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #041f4a;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.menu:last-of-type {
+    margin-bottom: 0;
+}
+
+.menu .name-menu {
+    font-size: 2rem;
+}
+
+.menu p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.order-main {
+    margin-top: 5rem;
+    border: 1px solid #041f4a;
+    padding: 1rem;
+}
+
+.empty-order {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.order-main h2 {
+    margin-bottom: 2rem;
+}
+
+.order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.5;
+    font-size: 1.8rem;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 1rem 0;
+}
+
+.order:first-of-type {
+    border-top: 1px solid #e1e1e1;
+}
+
+
+.info-order .quantity-info {
+    font-weight: bold;
+}
+
+.btn-delete {
+    background-color: #c20303;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    transition: background-color .3s ease;
+    text-align: center;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.btn-delete:hover {
+    background-color: #fa0606;
+
+}
+
+.main-option {
+    margin-top: 3rem;
+}
+
+.main-option h3 {
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+}
+
+.option {
+    display: flex;
+    gap: 1rem;
+}
+
+
+.main-total h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.btn-submit {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    transition: background-color .3s ease;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #2d2a2a;
+}
